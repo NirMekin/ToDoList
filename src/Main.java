@@ -1,3 +1,4 @@
+import com.fasterxml.classmate.AnnotationConfiguration;
 import org.hibernate.HibernateException;
 import org.hibernate.Metamodel;
 import org.hibernate.query.Query;
@@ -18,6 +19,7 @@ public class Main {
 
     static {
         try {
+            System.out.println("here");
             Configuration configuration = new Configuration();
             configuration.configure();
 
@@ -32,20 +34,23 @@ public class Main {
     }
 
     public static void main(final String[] args) throws Exception {
-        final Session session = getSession();
-        try {
-            System.out.println("querying all the managed entities...");
-            final Metamodel metamodel = session.getSessionFactory().getMetamodel();
-            for (EntityType<?> entityType : metamodel.getEntities()) {
-                final String entityName = entityType.getName();
-                final Query query = session.createQuery("from " + entityName);
-                System.out.println("executing: " + query.getQueryString());
-                for (Object o : query.list()) {
-                    System.out.println("  " + o);
-                }
-            }
-        } finally {
-            session.close();
-        }
+//        System.out.println("test1");
+//        final Session session = getSession();
+//        System.out.println("test2");
+//        try {
+//            System.out.println("querying all the managed entities...");
+//            final Metamodel metamodel = session.getSessionFactory().getMetamodel();
+//            for (EntityType<?> entityType : metamodel.getEntities()) {
+//                final String entityName = entityType.getName();
+//                final Query query = session.createQuery("from " + entityName);
+//                System.out.println("executing: " + query.getQueryString());
+//                for (Object o : query.list()) {
+//                    System.out.println("  " + o);
+//                }
+//            }
+//        } finally {
+//            System.out.println("ending session");
+//            session.close();
+//        }
     }
 }

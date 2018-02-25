@@ -8,21 +8,13 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ToDoList</property>
         <property name="hibernate.connection.username">root</property>
         <property name="connection.password">Ktzv3404</property>
+        <property name="show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        <!-- DB schema will be updated if needed -->
-        <!-- <property name="hbm2ddl.auto">update</property> -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- Mapping files -->
+        <!--<mapping resource="tasks.hbm.xml"></mapping>-->
+        <mapping resource="toDoListUsers.hbm.xml"/>
+        <mapping resource="tasks.hbm.xml"/>
+
     </session-factory>
 </hibernate-configuration>
-
-
-
-<!--<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>-->
-<!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ToDoList</property>-->
-<!--<property name="hibernate.connection.username">root</property>-->
-<!--<property name="connection.password">Ktzv3404</property>-->
-<!--<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>-->
-<!--<property name="show_sql">true</property>-->
-<!--<property name="hbm2ddl.auto">update</property>-->
-<!--<mapping jar="hibernate-mappings.jar"/>-->
-<!--<mapping class="ToDoList.ToDoList.users"/>-->
-<!--<mapping class="ToDoList.ToDoList.items"/>-->
