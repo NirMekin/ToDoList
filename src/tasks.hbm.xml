@@ -3,7 +3,7 @@
 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="com.model.tasks" table="users">
+	<class name="com.model.Tasks" table="tasks">
         <id name="taskId" type="int" column="taskId" >
             <generator class="increment"/>
         </id>
@@ -13,8 +13,8 @@
         <property name="taskName">
             <column name="taskName"/>
         </property>
-        <property name="desc">
-            <column name="desc"/>
+        <property name="description">
+            <column name="description"/>
         </property>
         <property name="taskCurrentStatus">
             <column name="taskCurrentStatus"/>

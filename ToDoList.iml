@@ -31,5 +31,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Hibernate 5.2.12-5.2.12" level="project" />
     <orderEntry type="library" name="mysql-connector-java-3.1.14-bin" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-3.1.0" level="project" />
   </component>
 </module>

@@ -1,25 +1,23 @@
-<!--<?xml version="1.0"?>-->
-<!--<!DOCTYPE hibernate-mapping PUBLIC -->
-	<!--"-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
-	<!--"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">-->
-<!--<hibernate-mapping>-->
-	<!--<class name="com.model.Users" table="users">-->
-		<!--<id name="id" type="integer" column="id" >-->
-		<!--</id>-->
-		<!--<property name="password">-->
-			<!--<column name="Password"/>-->
-		<!--</property>-->
-		<!--<property name="firstName">-->
-			<!--<column name="first_name"/>-->
-		<!--</property>	-->
-		<!--<property name="lastName">-->
-			<!--<column name="last_name"/>-->
-		<!--</property>		-->
-		<!--<property name="phone">-->
-			<!--<column name="phone"/>-->
-		<!--</property>	-->
-		<!--<property name="emailAddress">-->
-			<!--<column name="EmailAdress"/>-->
-		<!--</property>-->
-	<!--</class>-->
-<!--</hibernate-mapping>-->
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.model.Tasks" table="tasks">
+        <id name="taskId" type="int" column="taskId" >
+            <generator class="increment"/>
+        </id>
+        <property name="userId">
+            <column name="userId"/>
+        </property>
+        <property name="taskName">
+            <column name="taskName"/>
+        </property>
+        <property name="description">
+            <column name="description"/>
+        </property>
+        <property name="taskCurrentStatus">
+            <column name="taskCurrentStatus"/>
+        </property>
+	</class>
+</hibernate-mapping>
