@@ -1,8 +1,14 @@
 package com.model;
 
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.util.Random;
+
 public class Users {
 
+    @Id
+    @GeneratedValue
     private int id;
     private String firstName;
     private String lastName;
@@ -10,17 +16,17 @@ public class Users {
     private String password;
     private String emailAddress;
 
-    public Users(int _id, String _firstName, String _lastName, String _phone, String _pass, String _email) {
-        this.id = _id;
-        this.firstName = _firstName;
-        this.lastName = _lastName;
-        this.phone = _phone;
-        this.password = _pass;
-        this.emailAddress = _email;
+    public Users(String _firstName, String _lastName, String _phone, String _pass, String _email) {
+        setId(new Random().nextInt() & Integer.MAX_VALUE);
+        setFirstName(_firstName);
+        setLastName(_lastName);
+        setPhone(_phone);
+        setPassword(_pass);
+        setEmailAddress(_email);
     }
 
     public Users() {
-
+        setId(new Random().nextInt() & Integer.MAX_VALUE);
     }
 
     public int getId() {

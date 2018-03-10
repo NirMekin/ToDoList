@@ -1,9 +1,13 @@
 package com.model;
 
-/**
- * Created by tomerktzv on 25/02/2018.
- */
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.util.Random;
+
 public class Tasks {
+
+    @Id
+    @GeneratedValue
     private int taskId;
     private int userId;
     private String taskName;
@@ -11,15 +15,16 @@ public class Tasks {
     private String taskCurrentStatus;
 
     public Tasks() {
-
+        setTaskId(new Random().nextInt() & Integer.MAX_VALUE);
+        setTaskCurrentStatus("Not Started");
     }
 
-    public Tasks(int taskId, int userId, String taskName, String desc, String taskCurrentStatus) {
-        this.taskId = taskId;
-        this.userId = userId;
-        this.taskName = taskName;
-        this.description = description;
-        this.taskCurrentStatus = taskCurrentStatus;
+    public Tasks(int userId, String taskName, String desc) {
+        setTaskId(new Random().nextInt() & Integer.MAX_VALUE);
+        setUserId(userId);
+        setTaskName(taskName);
+        setDescription(desc);
+        setTaskCurrentStatus("Not Started");
     }
 
     public String getTaskName() {
@@ -27,6 +32,7 @@ public class Tasks {
     }
 
     public void setTaskName(String taskName) {
+        if (taskName.equals("")) return;
         this.taskName = taskName;
     }
 
@@ -35,6 +41,7 @@ public class Tasks {
     }
 
     public void setDescription(String description) {
+        if (description.equals("")) return;
         this.description = description;
     }
 
@@ -51,6 +58,7 @@ public class Tasks {
     }
 
     public void setTaskCurrentStatus(String taskCurrentStatus) {
+        if (taskCurrentStatus.equals("")) return;
         this.taskCurrentStatus = taskCurrentStatus;
     }
 

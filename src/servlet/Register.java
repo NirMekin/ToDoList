@@ -26,11 +26,13 @@ public class Register extends HttpServlet {
 
         try {
             HibernateToDoListDAO.getInstance().register(user);
+            request.getRequestDispatcher("../index.jsp").forward(request, response);
         } catch (Exception e) {
             request.setAttribute("error", e.getMessage());
             try {
                 request.getRequestDispatcher("../Error.jsp").forward(request, response);
             } catch (Exception e2) {}
         }
+
     }
 }

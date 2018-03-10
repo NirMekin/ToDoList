@@ -7,8 +7,9 @@ import java.util.List;
  * Created by tomerktzv on 25/02/2018.
  */
 public interface IToDoListDAO {
-    public void createUser(Users user) throws exceptionsUsersTasks;
-    public List<Tasks> listOfTasks(int id);
-    public void editTask(int taskId) throws exceptionsUsersTasks;
-    public void removeTask(int taskId) throws exceptionsUsersTasks;
+    void register(Users user) throws exceptionsUsersTasks;
+    List<Tasks> listOfTasks(int id);
+    void editTask(String taskId, String taskName, String taskDesc, String taskCurrentStatus) throws exceptionsUsersTasks;
+    void removeTask(String taskId) throws exceptionsUsersTasks;
+    Users signIn(Users user) throws exceptionsUsersTasks;
 }
