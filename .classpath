@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate 5.2.12-5.2.12"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-connector-java-3.1.14-bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.servlet-api-3.1.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javassist-3.9.0.GA"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-collections-3.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/antlr-2.7.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/popper"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jquery-3.2.1.slim"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/bootstrap"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jquery-3.3.1"/>
+	<classpathentry kind="output" path="out/production/ToDoList"/>
+</classpath>

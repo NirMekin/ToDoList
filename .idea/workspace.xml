@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c4c482-95b2-4c88-ae06-a49dac712efe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/Main.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/IToDoListDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/IToDoListDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/Tasks.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/Tasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/Users.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/model/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/Main.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/model/IToDoListDAO.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/model/IToDoListDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/model/Tasks.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/model/Tasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/model/Users.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/model/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList.iml" afterPath="$PROJECT_DIR$/ToDoList.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/model/HibernateToDoListDAO.java" afterPath="$PROJECT_DIR$/src/com/model/HibernateToDoListDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/model/IToDoListDAO.java" afterPath="$PROJECT_DIR$/src/com/model/IToDoListDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/model/Tasks.java" afterPath="$PROJECT_DIR$/src/com/model/Tasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/model/Users.java" afterPath="$PROJECT_DIR$/src/com/model/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/Register.java" afterPath="$PROJECT_DIR$/src/servlet/Register.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/TaskManagement.java" afterPath="$PROJECT_DIR$/src/servlet/TaskManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/UserManagement.java" afterPath="$PROJECT_DIR$/src/servlet/UserManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Error.jsp" afterPath="$PROJECT_DIR$/web/Error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/create_task.jsp" afterPath="$PROJECT_DIR$/web/create_task.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/task_management.jsp" afterPath="$PROJECT_DIR$/web/task_management.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,8 +102,8 @@
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/model/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="425">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#673#674#0" expanded="true" />
@@ -264,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/servlet/UserManagement.java" />
         <option value="$PROJECT_DIR$/web/create_task.jsp" />
-        <option value="$PROJECT_DIR$/src/com/model/Users.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/Error.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
@@ -273,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/com/model/HibernateToDoListDAO.java" />
         <option value="$PROJECT_DIR$/src/servlet/TaskManagement.java" />
         <option value="$PROJECT_DIR$/web/task_management.jsp" />
+        <option value="$PROJECT_DIR$/src/com/model/Users.java" />
       </list>
     </option>
   </component>
@@ -435,7 +412,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -1019,12 +996,12 @@
       <workItem from="1519493612264" duration="873000" />
       <workItem from="1519583165003" duration="8792000" />
       <workItem from="1520189342785" duration="17816000" />
-      <workItem from="1520453610253" duration="28277000" />
+      <workItem from="1520453610253" duration="28807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65826000" />
+    <option name="totallyTimeSpent" value="66356000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1037,7 +1014,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1059,11 +1035,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18191057" sideWeight="0.46698615" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4004065" sideWeight="0.46698615" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15482955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41361788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11128861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1570,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
@@ -1611,6 +1587,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1658,7 +1635,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>antlr-2.7.6</last-edited>
+          <last-edited>mysql-connector-java-3.1.14-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

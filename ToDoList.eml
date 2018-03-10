@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/ToDoList"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="Hibernate 5.2.12-5.2.12" value="project"/>
+		<level name="mysql-connector-java-3.1.14-bin" value="project"/>
+		<level name="javax.servlet-api-3.1.0" value="project"/>
+		<level name="javassist-3.9.0.GA" value="project"/>
+		<level name="commons-collections-3.1" value="project"/>
+		<level name="antlr-2.7.6" value="project"/>
+	</levels>
+</component>
